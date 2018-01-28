@@ -1,0 +1,91 @@
+body {
+  font: 20px Raleway, sans-serif;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.margin {
+  margin-bottom: 0px;
+}
+
+
+.heading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 400;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color:#ffffff;
+  border-bottom: 1px solid #555
+}
+#nav_aboutme {
+  margin-left: 300px;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav_name {
+  color: #00ADB5;
+}
+
+#intro_3 {
+  font-size: 40px;
+  color: white;
+  background-color: rgba(56,56,56,0.7);
+  font-family:Enriqueta;
+  position:absolute;
+  top: 59%;
+  left: 30%;
+  font-weight: 900;
+}
+#intro_2 {
+  font-size: 40px;
+  color: white;
+  background-color: rgba(56,56,56,0.7);
+  font-family:Enriqueta;
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  font-weight: 900;
+}
+
+#intro_1 {
+  font-size: 65px;
+  color: white;
+  background-color: rgba(70, 130, 180,0.7);
+  font-family:Enriqueta;
+  position:absolute;
+  top: 35%;
+  left: 35%;
+  font-weight: 900;
+}
+
+.img_background {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: grid;
+  grid-template: 150px / auto auto auto;
+  grid-gap: 50px;
+  padding: 50px;
+}
+
+.col {
+
+}
+
+.img_margin {
+  width: 100%;
+   height: auto;
+}
